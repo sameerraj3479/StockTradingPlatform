@@ -1,6 +1,6 @@
 # Stock Trading Platform
 
-A Java console-based Stock Trading Platform developed as part of the CodeAlpha Java Programming Internship. This application simulates a basic stock trading environment where users can view available stocks, buy and sell shares, track their portfolio, and view transaction history using Object-Oriented Programming concepts.
+A Java console-based Stock Trading Platform developed as part of the CodeAlpha Java Programming Internship. This project demonstrates the implementation of Object-Oriented Programming concepts by simulating a basic stock trading environment where users can buy and sell stocks, manage their portfolio, and track transaction history.
 
 ---
 
@@ -10,7 +10,7 @@ A Java console-based Stock Trading Platform developed as part of the CodeAlpha J
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-The Stock Trading Platform is a menu-driven Java application that allows users to perform basic stock market operations. It provides a simple simulation of stock trading while demonstrating the use of Object-Oriented Programming (OOP), collections, and console-based user interaction. The project is designed to strengthen Java programming fundamentals through a real-world application.
+The Stock Trading Platform is a menu-driven Java application that allows users to interact with a simulated stock market. Users can view available stocks, purchase shares, sell owned shares, monitor their portfolio, and review transaction history. The project is designed to strengthen Java programming skills while applying Object-Oriented Programming concepts to a real-world scenario.
 
 ---
 
@@ -20,12 +20,12 @@ The Stock Trading Platform is a menu-driven Java application that allows users t
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-* Display available stocks with current prices.
-* Buy stocks using available balance.
-* Sell purchased stocks.
-* View portfolio details.
-* Display transaction history.
-* Calculate cash balance and total portfolio value.
+* Display available stocks and their prices.
+* Buy stocks using the available balance.
+* Sell previously purchased stocks.
+* View portfolio with current holdings.
+* Display complete transaction history.
+* Calculate remaining balance and total portfolio value.
 * Validate invalid stock symbols and insufficient shares.
 
 ---
@@ -58,7 +58,12 @@ StockTradingPlatform/
 ├── StockMarket.java
 ├── User.java
 ├── Transaction.java
-└── README.md
+├── README.md
+└── Screenshots/
+    ├── MainMenu.png
+    ├── MarketAndBuyStock.png
+    ├── BuyAndSellStock.png
+    └── TransactionHistory.png
 ```
 
 ---
@@ -73,13 +78,13 @@ StockTradingPlatform/
 
 2. Open the project in Visual Studio Code or any Java IDE.
 
-3. Compile the project:
+3. Compile the project.
 
 ```bash
 javac *.java
 ```
 
-4. Run the application:
+4. Run the application.
 
 ```bash
 java Main
@@ -97,8 +102,38 @@ java Main
 * Buy stocks.
 * Sell stocks.
 * View portfolio.
-* Check transaction history.
+* Display transaction history.
 * Exit the application.
+
+---
+
+## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## Screenshots
+
+## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+### Main Menu
+
+![Main Menu](Screenshots/MainMenu.png)
+
+---
+
+### Market and Buy Stock
+
+![Market and Buy Stock](Screenshots/MarketAndBuyStock.png)
+
+---
+
+### Buy and Sell Stock
+
+![Buy and Sell Stock](Screenshots/BuyAndSellStock.png)
+
+---
+
+### Transaction History
+
+![Transaction History](Screenshots/TransactionHistory.png)
 
 ---
 
@@ -108,12 +143,12 @@ java Main
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-* File handling for data persistence.
-* User authentication.
-* Dynamic stock price updates.
-* Graphical User Interface (GUI).
-* Database integration.
-* Profit/Loss analysis.
+* Store portfolio data using file handling.
+* Add user authentication.
+* Implement dynamic stock price updates.
+* Develop a graphical user interface (GUI).
+* Integrate a database for persistent storage.
+* Add profit and loss analysis.
 
 ---
 
@@ -135,4 +170,4 @@ java Main
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-This project demonstrates the implementation of a basic stock trading system using Java and Object-Oriented Programming principles. It provides practical experience with collections, user interaction, and portfolio management while serving as a strong foundation for building more advanced financial or trading applications in the future.
+The Stock Trading Platform successfully demonstrates the core concepts of Java programming and Object-Oriented Programming through a practical stock market simulation. The application provides an interactive console-based experience for buying and selling stocks, managing portfolios, and tracking transaction history. This project serves as a strong foundation for developing more advanced trading applications with features such as file handling, database integration, and graphical user interfaces.
