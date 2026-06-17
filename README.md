@@ -1,6 +1,6 @@
 # Stock Trading Platform
 
-A Java console-based Stock Trading Platform developed as part of the CodeAlpha Java Programming Internship. This project demonstrates the implementation of Object-Oriented Programming concepts by simulating a basic stock trading environment where users can buy and sell stocks, manage their portfolio, and track transaction history.
+A Java console-based Stock Trading Platform developed as part of the  Java Programming . This project demonstrates the implementation of Object-Oriented Programming concepts by simulating a basic stock trading environment where users can buy and sell stocks, manage their portfolio, and track transaction history.
 
 ---
 
@@ -149,18 +149,6 @@ java Main
 * Develop a graphical user interface (GUI).
 * Integrate a database for persistent storage.
 * Add profit and loss analysis.
-
----
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-## Author
-
-## ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Name:** Sameer Raj
-
-**Internship:** CodeAlpha Java Programming Internship
 
 ---
 
